@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    height: 150vh;
+    display: grid;
+    place-items: center;
+    background-image:url("./images/bg4.jpg");
+    color:#fff;
+}
+.row{
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+   
+}
+
+.margin{
+    display: flex;
+    margin-right: 37%;
+    margin-top: -17%;
+}
+
+.column{
+    flex: 50%;
+    padding:30px;
+}
+
+
+table{
+    width:500px;
+    box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+
+}
+
+table, td,th{
+    padding: 10px;
+    border: 1px solid lightblue;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td{
+    text-align: left;
+    font-size: 18px;
+    color:#000;
+}
+th{
+    background-color: black;
+    color:white;
+}
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+tr:nth-child(odd):hover{
+    background-color: lightblue;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 300ms ease-in;
+}
+tr:nth-child(even){
+    background-color: #ededed;
+}
+tr:nth-child(even):hover{
+    background-color: lightblue;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 300ms ease-in;
+}
+
+.button{
+    background-color:#000;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 12px;
+border: 2px solid #fff;
+padding: 14px 110px;
+outline: none;
+color: #fff;
+cursor: pointer;
+transition: 0.25s;
+}
+
+button:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+
+
+        

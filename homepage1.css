@@ -1,0 +1,36 @@
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 90%;
+    margin-top: -24px;
+}
+
+.dot[data-status="available"] {
+    background-color: green;
+}
+
+.dot[data-status="reserved"] {
+    background-color: yellow;
+}
+
+.dot[data-status="not-available"] {
+    background-color: red;
+}
+.dot1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.dot1[data-status="available"] {
+    background-color: green;
+}
+
+.dot1[data-status="reserved"] {
+    background-color: yellow;
+}
+
+.dot1[data-status="not-available"] {
+    background-color: red;
+}
